@@ -27,3 +27,16 @@ make sim<br>
 cd matrix-core4<br>
 make<br>
 make sim<br>
+<br><br><br>
+HLS part:<br>
+// go to stratus directory<br>
+cd stratus<br>
+<br>
+// The behavioral simulation (C++ only).<br>
+make sim_B<br>
+<br>
+//The Verilog simulation for HLS config "BASIC". <br>
+make sim_V_BASIC<br>
+<br>
+//The Verilog simulation for HLS config "UNROLL". <br>
+make sim_V_UNROLL<br>
