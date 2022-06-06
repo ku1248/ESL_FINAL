@@ -27,7 +27,7 @@ make sim<br>
 cd matrix-core4<br>
 make<br>
 make sim<br>
-<br><br><br>
+<br><br>
 HLS part:<br>
 // go to stratus directory<br>
 cd stratus<br>
@@ -38,5 +38,11 @@ make sim_B<br>
 //The Verilog simulation for HLS config "BASIC". <br>
 make sim_V_BASIC<br>
 <br>
+//The Verilog simulation for HLS config "DPA". <br>
+make sim_V_DPA<br>
+<br>
 //The Verilog simulation for HLS config "UNROLL". <br>
 make sim_V_UNROLL<br>
+<br>
+//The Verilog simulation for HLS config "PIPELINE". <br>
+make sim_V_PIPELINE<br>
