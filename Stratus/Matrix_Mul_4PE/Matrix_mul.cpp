@@ -97,8 +97,8 @@ void Matrix_mul::do_matrix_mul() {
 #else
 					o_result.write(result);
 					o_result.write(result2);
-					o_result.put(result3);
-					o_result.put(result4);
+					o_result.write(result3);
+					o_result.write(result4);
 #endif
 			}
 		}
