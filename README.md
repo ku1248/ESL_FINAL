@@ -13,17 +13,17 @@ Build matrix multiplication software:<br>
 cd $EE6470<br>
 cd riscv-vp/sw<br>
 
-1 pe version:<br>
+1 PE version:<br>
 cd matrix-core1<br>
 make<br>
 make sim<br>
 
-2 pe version:<br>
+2 PE version:<br>
 cd matrix-core2<br>
 make<br>
 make sim<br>
 
-4 pe version:<br>
+4 PE version:<br>
 cd matrix-core4<br>
 make<br>
 make sim<br>
